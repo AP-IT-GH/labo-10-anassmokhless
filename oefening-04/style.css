@@ -3,8 +3,9 @@ div{
     height: 10rem;
     font-size: 6rem;
     border-style: solid;
-    border-radius: 0.5rem
-    
+    border-radius: 0.5rem;
+  
+    transition: transform 1000ms ease;
 }
 
 main{
@@ -14,3 +15,16 @@ main{
     align-items: center;
     gap: 1rem;
 }
+
+#left:hover{
+    transform: translateX(-2rem);
+}
+
+#up:hover{
+    transform: translateY(-2rem);
+}
+
+#right:hover{
+    transform: translateX(2rem);
+}
+
