@@ -1,0 +1,23 @@
+div{
+    background-color: lightblue;
+
+    width: 15rem;
+    height: 5rem;
+    
+    animation: wider 1000ms linear alternate infinite;
+    
+}
+
+@keyframes wider{
+
+    100%{
+        width: 25rem;
+    }
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
