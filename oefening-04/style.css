@@ -1,0 +1,16 @@
+div{
+    width: 10rem;
+    height: 10rem;
+    font-size: 6rem;
+    border-style: solid;
+    border-radius: 0.5rem
+    
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
