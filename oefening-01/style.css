@@ -1,0 +1,24 @@
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background: green;
+    width: 10rem;
+    height: 5rem;
+    animation: grow 1s linear infinite alternate none;
+}
+
+@keyframes grow{
+  
+    0%{
+        width: 10rem;
+    }
+    
+    50%{
+        width: 20rem;
+    }
+}
