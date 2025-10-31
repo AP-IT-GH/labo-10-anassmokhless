@@ -1,0 +1,31 @@
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+p{
+    height: 10rem;
+    width: 10rem;
+    font-size: 8rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 4px black;
+
+    transition: transform 1s linear;
+    
+}
+
+#left:hover{
+    transform: translateX(-5rem);
+}
+
+#up:hover{
+    transform: translateY(-5rem);
+}
+
+#right:hover{
+    transform: translateX(5rem);
+}
+

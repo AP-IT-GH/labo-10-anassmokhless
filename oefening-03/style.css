@@ -1,0 +1,30 @@
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background-color: red;
+    height: 15rem;
+    width: 15rem;
+    animation: warp 5s ease-in infinite alternate;
+}
+
+@keyframes warp{
+    0%{
+        border-radius: 0;
+        background-color: red;
+    }
+
+    50%{
+        border-radius: 50%;
+        background-color: purple;
+    }
+
+    100%{
+        border-radius: 100%;
+        background-color: blue;
+    }
+}

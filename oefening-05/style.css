@@ -1,0 +1,78 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: blue;
+    height: 7vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+a{
+    margin: 3rem;
+    color: white;
+}
+
+footer{
+    height: 7vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+}
+
+main{
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+input{
+    border-style: solid;
+    border-color: grey;
+    width: 30rem;
+    border-radius: 0.25rem;
+}
+
+textarea{
+    border-style: solid;
+    height: 10rem;
+    border-color: grey;
+    border-radius: 0.25rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+#sendbutton{
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 8rem;
+    text-align: center;
+}
+
+img{
+    width: 20rem;
+    height: 20rem;
+    transition: transform 10s ease;
+}
+
+img:hover{
+    transform: rotate(360deg);
+}
